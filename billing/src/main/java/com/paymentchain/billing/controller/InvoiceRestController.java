@@ -92,5 +92,6 @@ public class InvoiceRestController {
                   billingRepository.delete(get);  
         }
         return ResponseEntity.ok().build();
+        
     }
 }
